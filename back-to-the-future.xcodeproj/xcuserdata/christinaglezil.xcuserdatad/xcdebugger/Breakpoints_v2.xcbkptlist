@@ -2,4 +2,54 @@
 <Bucket
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "back-to-the-future/FirstViewController.swift"
+            timestampString = "520534203.480388"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "back_to_the_future.FirstViewController.viewDidLoad () -&gt; ()"
+                  moduleName = "back-to-the-future"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christinaglezil/Desktop/back-to-the-future/back-to-the-future/FirstViewController.swift"
+                  timestampString = "520534204.757061"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "back_to_the_future.FirstViewController.(viewDidLoad () -&gt; ()).(closure #1)"
+                  moduleName = "back-to-the-future"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christinaglezil/Desktop/back-to-the-future/back-to-the-future/FirstViewController.swift"
+                  timestampString = "520534204.76361"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

@@ -22,6 +22,10 @@ class FirstViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        UIView.animate(withDuration: 2, delay: 0.0, options:[UIViewAnimationOptions.repeat, UIViewAnimationOptions.autoreverse], animations: {
+            self.view.backgroundColor = UIColor.green
+        }, completion: nil)
+        
         let year = Utilities().GetCurrentYear()
         
         label1.text = Utilities().GetLetterAtIndex(str: year, location: 0)
@@ -31,10 +35,17 @@ class FirstViewController: UIViewController {
         
         self.timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(FirstViewController.Tick), userInfo: nil, repeats: true)
         
+        Tick()
+        
   }
     
     func Tick(){
         timeLabel.text = Utilities().GetCurrentTime()
+        UIView.animate(withDuration: 1.0, delay: 0, options: .curveEaseOut, animations: {
+            self.view.alpha = 8.5
+        }) { (ture) in
+            self.view.alpha = 1.0
+        }
     }
 
     override func didReceiveMemoryWarning() {

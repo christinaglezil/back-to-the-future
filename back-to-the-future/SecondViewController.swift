@@ -1,4 +1,4 @@
-//
+// 
 //  SecondViewController.swift
 //  back-to-the-future
 //
@@ -28,8 +28,23 @@ class SecondViewController: UIViewController {
         label3.text = utils.GetLetterAtIndex(str: year, location: 2)
         label4.text = utils.GetLetterAtIndex(str: year, location: 3)
         
+        AnimateItem(duration: 0.5, delay: 0, object: label1)
+        AnimateItem(duration: 0.5, delay: 0.2, object: label2)
+        AnimateItem(duration: 0.5, delay: 0.4, object: label3)
+        AnimateItem(duration: 0.5, delay: 0.6, object: label4)
+        
     }
-    override func didReceiveMemoryWarning() {
+    
+    func AnimateItem (duration: Double, delay: Double, object: UIView) {
+        
+        UIView.animate(withDuration: duration , delay:delay , options: .curveEaseOut, animations: {
+            object.center.x += self.view.bounds.width
+        }) { (true) in
+            
+        }
+    }
+    
+        override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }

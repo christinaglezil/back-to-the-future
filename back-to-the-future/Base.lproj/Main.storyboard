@@ -65,8 +65,8 @@
                                 <color key="textColor" red="0.1579054805" green="0.7435233161" blue="0.51646845450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gmF-va-n92">
-                                <rect key="frame" x="112" y="395.5" width="150" height="29"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gmF-va-n92">
+                                <rect key="frame" x="112" y="395.5" width="150" height="0.0"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="Zui-9h-2vC"/>
                                 </constraints>
@@ -75,7 +75,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.80000001190000003" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="se2-De-F03" firstAttribute="top" secondItem="7Pz-ic-Fef" secondAttribute="top" id="9zi-tL-vhP"/>
                             <constraint firstItem="7Pz-ic-Fef" firstAttribute="centerY" secondItem="tsR-hK-woN" secondAttribute="centerY" id="AMf-Zz-l4e"/>
